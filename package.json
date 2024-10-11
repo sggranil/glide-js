@@ -1,6 +1,6 @@
 {
   "name": "glide-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight JavaScript framework designed to simplify the creation of static websites.",
   "main": "script.ts",
   "scripts": {
