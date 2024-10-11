@@ -1,0 +1,59 @@
+{
+  "name": "glide-js",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript framework designed to simplify the creation of static websites.",
+  "main": "script.ts",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "bin": {
+    "gl": "./glide-js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sggranil/glide-js.git"
+  },
+  "keywords": [
+    "[\"static\"",
+    "\"website\"",
+    "\"framework\"",
+    "\"sass\"",
+    "\"scss\"",
+    "\"babel\"",
+    "\"javascript\"]"
+  ],
+  "author": "Simon Gerard Granil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sggranil/glide-js/issues"
+  },
+  "homepage": "https://github.com/sggranil/glide-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "nodemon": "^3.1.7",
+    "sass": "^1.79.4",
+    "sass-loader": "^16.0.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@glide-js": "glide-js/lib"
+  }
+}
